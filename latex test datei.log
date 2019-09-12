@@ -1,29 +1,35 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.1)  12 SEP 2019 10:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.19)  12 SEP 2019 10:43
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**"latex test datei.tex"
-(./latex test datei.tex
+**"./latex test datei.tex"
+("latex test datei.tex"
 LaTeX2e <2018-12-01>
-(/usr/local/texlive/2019/texmf-dist/tex/latex/koma-script/scrartcl.cls
+
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scra
+rtcl.cls"
 Document Class: scrartcl 2019/02/01 v3.26b KOMA-Script document class (article)
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/koma-script/scrkbase.sty
+
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrk
+base.sty"
 Package: scrkbase 2019/02/01 v3.26b KOMA-Script package (KOMA-Script-dependent 
 basics and keyval usage)
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/koma-script/scrbase.sty
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrb
+ase.sty"
 Package: scrbase 2019/02/01 v3.26b KOMA-Script package (KOMA-Script-independent
  basics and keyval usage)
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.
+sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/koma-script/scrlfile.sty
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrl
+file.sty"
 Package: scrlfile 2019/02/01 v3.26b KOMA-Script package (loading files)
 )))
-(/usr/local/texlive/2019/texmf-dist/tex/latex/koma-script/tocbasic.sty
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\tocb
+asic.sty"
 Package: tocbasic 2019/02/01 v3.26b KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip41
 \scr@dte@tocline@numbox=\box27
@@ -35,11 +41,13 @@ Class scrartcl Info: File `scrsize11pt.clo' used instead of
 (scrartcl)           file `scrsize11.clo' to setup font sizes on input line 216
 2.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrs
+ize11pt.clo"
 File: scrsize11pt.clo 2019/02/01 v3.26b KOMA-Script font size class option (11p
 t)
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/koma-script/typearea.sty
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\type
+area.sty"
 Package: typearea 2019/02/01 v3.26b KOMA-Script package (type area)
 \ta@bcor=\skip42
 \ta@div=\count80
@@ -121,43 +129,59 @@ Package tocbasic Info: omitting babel extension for `lot'
 Class scrartcl Info: Redefining `\numberline' on input line 5957.
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/base/inputenc.sty
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.st
+y"
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
 )
-(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2019/05/04 3.31 The Babel package
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.st
+y"
+Package: babel 2019/07/19 3.33 The Babel package
 
-(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2019/05/04 3.31 Babel switching mechanism
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.d
+ef"
+File: switch.def 2019/07/19 3.33 Babel switching mechanism
 )
-(/usr/local/texlive/2019/texmf-dist/tex/generic/babel-english/english.ldf
+*************************************
+* Local config file bblopts.cfg used
+*
+
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cf
+g"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-english\en
+glish.ldf"
 Language: english 2017/06/06 v3.3r English support from the babel system
 
-(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2019/05/04 3.31 Babel common definitions
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.de
+f"
+File: babel.def 2019/07/19 3.33 Babel common definitions
 \babel@savecnt=\count89
 \U@D=\dimen103
 
-(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/txtbabel.def)
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel
+.def")
 \bbl@dirlevel=\count90
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-(/usr/local/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.sty
+"
 Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/base/t1enc.def
+ ("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1enc.def"
 File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-(/usr/local/texlive/2019/texmf-dist/tex/latex/mathtools/mathtools.sty
-Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathtools\mathto
+ols.sty"
+Package: mathtools 2019/07/31 v1.22 mathematical typesetting tools
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.sty"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count91
 \calc@Bcount=\count92
@@ -170,27 +194,34 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count93
 \calc@Cskip=\skip59
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/mathtools/mhsetup.sty
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathtools\mhsetu
+p.sty"
 Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.
+sty"
 Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip60
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
+
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.
+sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.s
+ty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
 \ex@=\dimen106
 ))
-(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.s
+ty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen107
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.s
+ty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count94
@@ -245,17 +276,19 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_above_shortintertext_sep=\dimen120
 \l_MT_below_shortintertext_sep=\dimen121
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssymb
+.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amsfont
+s.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/lmodern.sty
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\lmodern.sty"
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -290,7 +323,8 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/microtype.sty
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\microt
+ype.sty"
 Package: microtype 2019/02/28 v2.7b Micro-typographical refinements (RS)
 \MT@toks=\toks22
 \MT@count=\count107
@@ -299,7 +333,8 @@ LaTeX Info: Redefining \textls on input line 790.
 LaTeX Info: Redefining \textmicrotypecontext on input line 1336.
 \MT@listname@count=\count108
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\microt
+ype-pdftex.def"
 File: microtype-pdftex.def 2019/02/28 v2.7b Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 914.
@@ -308,37 +343,46 @@ LaTeX Info: Redefining \lslig on input line 914.
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/microtype.cfg
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\microt
+ype.cfg"
 File: microtype.cfg 2019/02/28 v2.7b microtype main configuration file (RS)
 ))
-(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphic
+x.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphic
+s.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.st
+y"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\gra
+phics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdf
+tex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen123
 \Gin@req@width=\dimen124
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperre
+f.sty"
+Package: hyperref 2019/06/12 v6.88h Hypertext links for LaTeX
 
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\hobsu
+b-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\hobsu
+b-generic.sty"
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
@@ -352,7 +396,7 @@ Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -374,75 +418,82 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxetex\ifxete
+x.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/auxhook.sty
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\auxhook
+.sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptio
+ns.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen125
 \Hy@linkcounter=\count109
 \Hy@pagecounter=\count110
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc.
+def"
+File: pd1enc.def 2019/06/12 v6.88h Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count111
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/00miktex\hyperre
+f.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4519.
-Package hyperref Info: Link nesting OFF on input line 4524.
-Package hyperref Info: Hyper index ON on input line 4527.
-Package hyperref Info: Plain pages OFF on input line 4534.
-Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Hyper figures OFF on input line 4550.
+Package hyperref Info: Link nesting OFF on input line 4555.
+Package hyperref Info: Hyper index ON on input line 4558.
+Package hyperref Info: Plain pages OFF on input line 4565.
+Package hyperref Info: Backreferencing OFF on input line 4570.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4772.
+Package hyperref Info: Bookmarks ON on input line 4803.
 \c@Hy@tempcnt=\count112
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/url/url.sty
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5125.
+LaTeX Info: Redefining \url on input line 5156.
 \XeTeXLinkMargin=\dimen126
 \Fld@menulength=\count113
 \Field@Width=\dimen127
 \Fld@charsize=\dimen128
-Package hyperref Info: Hyper figures OFF on input line 6380.
-Package hyperref Info: Link nesting OFF on input line 6385.
-Package hyperref Info: Hyper index ON on input line 6388.
-Package hyperref Info: backreferencing OFF on input line 6395.
-Package hyperref Info: Link coloring OFF on input line 6400.
-Package hyperref Info: Link coloring with OCG OFF on input line 6405.
-Package hyperref Info: PDF/A mode OFF on input line 6410.
-LaTeX Info: Redefining \ref on input line 6450.
-LaTeX Info: Redefining \pageref on input line 6454.
+Package hyperref Info: Hyper figures OFF on input line 6411.
+Package hyperref Info: Link nesting OFF on input line 6416.
+Package hyperref Info: Hyper index ON on input line 6419.
+Package hyperref Info: backreferencing OFF on input line 6426.
+Package hyperref Info: Link coloring OFF on input line 6431.
+Package hyperref Info: Link coloring with OCG OFF on input line 6436.
+Package hyperref Info: PDF/A mode OFF on input line 6441.
+LaTeX Info: Redefining \ref on input line 6481.
+LaTeX Info: Redefining \pageref on input line 6485.
 \Hy@abspage=\count114
 \c@Item=\count115
 \c@Hfootnote=\count116
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdftex
+.def"
+File: hpdftex.def 2019/06/12 v6.88h Hyperref driver for pdfTeX
 \Fld@listcount=\count117
 \c@bookmark@seq@number=\count118
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\rerunfi
+lecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip65
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/bm.sty
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\bm.sty"
 Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup6
 \symboldletters=\mathgroup7
@@ -450,22 +501,26 @@ Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 207.
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/physics/physics.sty
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/physics\physics.
+sty"
 Package: physics 
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2019-05-07 L3 programming layer (loader) 
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/xpars
+e\xparse.sty"
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\expl3.s
+ty"
+Package: expl3 2019-08-14 L3 programming layer (loader) 
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2019-05-07 L3 programming layer (code)
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\expl3-c
+ode.tex"
+Package: expl3 2019-08-14 L3 programming layer (code)
 \c_max_int=\count119
 \l_tmpa_int=\count120
 \l_tmpb_int=\count121
 \g_tmpa_int=\count122
 \g_tmpb_int=\count123
 \g__kernel_prg_map_int=\count124
-\c__ior_term_ior=\count125
+\c__ior_term_noprompt_ior=\count125
 \c_log_iow=\count126
 \l_iow_line_count_int=\count127
 \l__iow_line_target_int=\count128
@@ -516,51 +571,53 @@ Package: expl3 2019-05-07 L3 programming layer (code)
 \l__sort_A_int=\count154
 \l__sort_B_int=\count155
 \l__sort_C_int=\count156
-\l__tl_analysis_normal_int=\count157
-\l__tl_analysis_index_int=\count158
-\l__tl_analysis_nesting_int=\count159
-\l__tl_analysis_type_int=\count160
-\l__regex_internal_a_int=\count161
-\l__regex_internal_b_int=\count162
-\l__regex_internal_c_int=\count163
-\l__regex_balance_int=\count164
-\l__regex_group_level_int=\count165
-\l__regex_mode_int=\count166
-\c__regex_cs_in_class_mode_int=\count167
-\c__regex_cs_mode_int=\count168
-\l__regex_catcodes_int=\count169
-\l__regex_default_catcodes_int=\count170
-\c__regex_catcode_D_int=\count171
-\c__regex_catcode_S_int=\count172
-\c__regex_catcode_L_int=\count173
-\c__regex_catcode_O_int=\count174
-\c__regex_catcode_A_int=\count175
-\c__regex_all_catcodes_int=\count176
-\l__regex_show_lines_int=\count177
-\l__regex_min_state_int=\count178
-\l__regex_max_state_int=\count179
-\l__regex_left_state_int=\count180
-\l__regex_right_state_int=\count181
-\l__regex_capturing_group_int=\count182
-\l__regex_min_pos_int=\count183
-\l__regex_max_pos_int=\count184
-\l__regex_curr_pos_int=\count185
-\l__regex_start_pos_int=\count186
-\l__regex_success_pos_int=\count187
-\l__regex_curr_char_int=\count188
-\l__regex_curr_catcode_int=\count189
-\l__regex_last_char_int=\count190
-\l__regex_case_changed_char_int=\count191
-\l__regex_curr_state_int=\count192
-\l__regex_step_int=\count193
-\l__regex_min_active_int=\count194
-\l__regex_max_active_int=\count195
-\l__regex_replacement_csnames_int=\count196
-\l__regex_match_count_int=\count197
-\l__regex_min_submatch_int=\count198
-\l__regex_submatch_int=\count199
-\l__regex_zeroth_submatch_int=\count266
-\g__regex_trace_regex_int=\count267
+\l__str_internal_int=\count157
+\c__str_replacement_char_int=\count158
+\l__tl_analysis_normal_int=\count159
+\l__tl_analysis_index_int=\count160
+\l__tl_analysis_nesting_int=\count161
+\l__tl_analysis_type_int=\count162
+\l__regex_internal_a_int=\count163
+\l__regex_internal_b_int=\count164
+\l__regex_internal_c_int=\count165
+\l__regex_balance_int=\count166
+\l__regex_group_level_int=\count167
+\l__regex_mode_int=\count168
+\c__regex_cs_in_class_mode_int=\count169
+\c__regex_cs_mode_int=\count170
+\l__regex_catcodes_int=\count171
+\l__regex_default_catcodes_int=\count172
+\c__regex_catcode_D_int=\count173
+\c__regex_catcode_S_int=\count174
+\c__regex_catcode_L_int=\count175
+\c__regex_catcode_O_int=\count176
+\c__regex_catcode_A_int=\count177
+\c__regex_all_catcodes_int=\count178
+\l__regex_show_lines_int=\count179
+\l__regex_min_state_int=\count180
+\l__regex_max_state_int=\count181
+\l__regex_left_state_int=\count182
+\l__regex_right_state_int=\count183
+\l__regex_capturing_group_int=\count184
+\l__regex_min_pos_int=\count185
+\l__regex_max_pos_int=\count186
+\l__regex_curr_pos_int=\count187
+\l__regex_start_pos_int=\count188
+\l__regex_success_pos_int=\count189
+\l__regex_curr_char_int=\count190
+\l__regex_curr_catcode_int=\count191
+\l__regex_last_char_int=\count192
+\l__regex_case_changed_char_int=\count193
+\l__regex_curr_state_int=\count194
+\l__regex_step_int=\count195
+\l__regex_min_active_int=\count196
+\l__regex_max_active_int=\count197
+\l__regex_replacement_csnames_int=\count198
+\l__regex_match_count_int=\count199
+\l__regex_min_submatch_int=\count266
+\l__regex_submatch_int=\count267
+\l__regex_zeroth_submatch_int=\count268
+\g__regex_trace_regex_int=\count269
 \c_empty_box=\box31
 \l_tmpa_box=\box32
 \l_tmpb_box=\box33
@@ -605,30 +662,32 @@ Package: expl3 2019-05-07 L3 programming layer (code)
 \l__coffin_display_x_dim=\dimen159
 \l__coffin_display_y_dim=\dimen160
 \g__file_internal_ior=\read1
-\l__seq_internal_a_int=\count268
-\l__seq_internal_b_int=\count269
-\c__deprecation_minus_one=\count270
+\l__seq_internal_a_int=\count270
+\l__seq_internal_b_int=\count271
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
-File: l3pdfmode.def 2019-04-06 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count271
-\l__driver_pdf_tmp_box=\box49
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3back
+end-pdfmode.def"
+File: l3backend-pdfmode.def 2019-04-06 v L3 Experimental backend support: PDF m
+ode
+\l__kernel_color_stack_int=\count272
+\l__pdf_internal_box=\box49
 ))
-Package: xparse 2019-05-03 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count272
-\g__xparse_grabber_int=\count273
-\l__xparse_m_args_int=\count274
-\l__xparse_v_nesting_int=\count275
+Package: xparse 2019-05-28 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count273
+\g__xparse_grabber_int=\count274
+\l__xparse_m_args_int=\count275
+\l__xparse_v_nesting_int=\count276
 ))
-(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/color.sty
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\color.s
+ty"
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\col
+or.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
-)
-(./latex test datei.aux)
+) ("latex test datei.aux")
 \openout1 = `"latex test datei.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
@@ -647,7 +706,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 27.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmr.fd
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Info: Redefining \microtypecontext on input line 27.
@@ -662,27 +721,32 @@ Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: Adjustment of character kerning enabled.
 Package microtype Info: Using default kerning set `alltext'.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mt-cmr
+.cfg"
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-(/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp
+-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count276
+\scratchcounter=\count277
 \scratchdimen=\dimen161
 \scratchbox=\box50
-\nofMPsegments=\count277
-\nofMParguments=\count278
+\nofMPsegments=\count278
+\nofMParguments=\count279
 \everyMPshowfont=\toks23
-\MPscratchCnt=\count279
+\MPscratchCnt=\count280
 \MPscratchDim=\dimen162
-\MPnumerator=\count280
-\makeMPintoPDFobject=\count281
+\MPnumerator=\count281
+\makeMPintoPDFobject=\count282
 \everyMPtoPDFconversion=\toks24
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+)
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopd
+f-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.
+sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -691,27 +755,24 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
+)
 \AtBeginShipoutBox=\box51
 Package hyperref Info: Link coloring OFF on input line 27.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref
+.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\getti
+tlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count282
+\c@section@level=\count283
 )
 LaTeX Info: Redefining \ref on input line 27.
 LaTeX Info: Redefining \pageref on input line 27.
 LaTeX Info: Redefining \nameref on input line 27.
-
-(./latex test datei.out) (./latex test datei.out)
+ ("latex test datei.out") ("latex test datei.out")
 \@outlinefile=\write3
 \openout3 = `"latex test datei.out"'.
 
@@ -723,19 +784,21 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           you can avoid this message with `\usepackage{bookmark}'
 (scrartcl)           before \begin{document} on input line 27.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/bookmark.sty
-Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\bookmar
+k.sty"
+Package: bookmark 2019/06/04 v1.27 PDF bookmarks (HO)
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/bkm-pdftex.def
-File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\bkm-pdf
+tex.def"
+File: bkm-pdftex.def 2019/06/04 v1.27 bookmark driver for pdfTeX (HO)
 Package auxhook Info: \AddLineBeginMainAux comes a little late,
 (auxhook)             because the main .aux file is already opened on input lin
 e 164.
-\BKM@id=\count283
+\BKM@id=\count284
 ))
 LaTeX Font Info:    Try loading font information for T1+lmss on input line 29.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmss.fd
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -744,24 +807,24 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 29.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ot1lmr.fd
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OML+lmm on input line 29.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omllmm.fd
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 29.
 
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omslmsy.fd
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OMX+lmex on input line 29.
 
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omxlmex.fd
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -772,24 +835,27 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 29.
 LaTeX Font Info:    Try loading font information for U+msa on input line 29.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd
+"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/mt-msa.cfg
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mt-msa
+.cfg"
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 29.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd
+"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/mt-msb.cfg
+("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mt-msb
+.cfg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 Package tocbasic Info: character protrusion at toc deactivated on input line 29
 .
-
-(./latex test datei.toc
+ ("latex test datei.toc"
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -803,7 +869,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [1
 
 
-{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+{C:/Users/Clemens/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
 Underfull \hbox (badness 10000) in paragraph at lines 50--54
 
  []
@@ -813,55 +879,60 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 54.
 
-Overfull \hbox (84.84222pt too wide) in paragraph at lines 84--89
+Overfull \hbox (84.84222pt too wide) in paragraph at lines 84--90
 \T1/lmr/m/n/10.95 (-20) tabelle : $[]$
  []
 
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 97.
-(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omslmr.fd
+[3]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 98.
+ ("C:\Users\Clemens\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 97.
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <20.74> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 98.
+
+Overfull \hbox (144.50607pt too wide) detected at line 103
+\OT1/lmr/m/n/20.74 1 + 2 = 3 + 3 + \OML/lmm/m/it/20.74 h[] \OT1/lmr/m/n/20.74 +
+ 4 + 4 = \OML/lmm/m/it/20.74 M[] \OT1/lmr/m/n/20.74 + 900[] + 50
+ []
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 104.
+LaTeX Warning: Command \" invalid in math mode on input line 105.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 107.
-[3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 107.
- (./latex test datei.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 107.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 107.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 108.
+[4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 108.
+ ("latex test datei.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 108.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 108.
 Package rerunfilecheck Info: File `"latex test datei".out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 107.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 108.
  ) 
 Here is how much of TeX's memory you used:
- 21641 strings out of 492616
- 384148 string characters out of 6129482
- 590528 words of memory out of 5000000
- 25312 multiletter control sequences out of 15000+600000
- 626068 words of font info for 116 fonts, out of 8000000 for 9000
+ 22141 strings out of 492895
+ 398462 string characters out of 3122801
+ 601679 words of memory out of 3000000
+ 25802 multiletter control sequences out of 15000+200000
+ 626151 words of font info for 117 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,7n,77p,9097b,408s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
-texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
-19/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2019/texmf-d
-ist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2019/texmf-dist/fonts/type
-1/public/lm/lmbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/l
-m/lmmi10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi12.p
-fb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/lo
-cal/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive
-/2019/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2019/texmf
--dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2019/texmf-dist/fonts
-/type1/public/lm/lmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/publi
-c/lm/lmri10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmssb
-x10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on "latex test datei.pdf" (3 pages, 187070 bytes).
+ 54i,7n,77p,9099b,422s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Clemens/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mat
+hsy.enc}{C:/Users/Clemens/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/
+lm-ec.enc}{C:/Users/Clemens/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/l
+m/lm-rm.enc}{C:/Users/Clemens/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips
+/lm/lm-mathit.enc}<C:/Users/Clemens/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/lm/lmbx10.pfb><C:/Users/Clemens/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/lm/lmmi12.pfb><C:/Users/Clemens/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/Clemens/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/Clemens/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/Clemens/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/Clemens/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/Clemens/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
+Output written on "latex test datei.pdf" (4 pages, 181761 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
- 89 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 500000)
+ 94 PDF objects out of 1000 (max. 8388607)
+ 15 named destinations out of 1000 (max. 500000)
  22561 words of extra memory for PDF output out of 24883 (max. 10000000)
 
