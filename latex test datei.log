@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.1)  12 SEP 2019 10:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.1)  12 SEP 2019 11:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -850,11 +850,11 @@ Package rerunfilecheck Info: File `"latex test datei".out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 108.
  ) 
 Here is how much of TeX's memory you used:
- 21650 strings out of 492616
- 384257 string characters out of 6129482
- 589528 words of memory out of 5000000
+ 21646 strings out of 492616
+ 384215 string characters out of 6129482
+ 590528 words of memory out of 5000000
  25316 multiletter control sequences out of 15000+600000
- 626151 words of font info for 117 fonts, out of 8000000 for 9000
+ 625985 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,7n,77p,9097b,422s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
@@ -868,7 +868,7 @@ al/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/
 2019/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2019/texmf
 -dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2019/texmf-dist/fo
 nts/type1/public/lm/lmsy10.pfb>
-Output written on "latex test datei.pdf" (4 pages, 171490 bytes).
+Output written on "latex test datei.pdf" (4 pages, 171586 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  81 compressed objects within 1 object stream
