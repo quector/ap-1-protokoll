@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.19)  12 SEP 2019 10:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.19)  12 SEP 2019 10:52
 entering extended mode
 **"./latex test datei.tex"
 ("latex test datei.tex"
@@ -869,7 +869,13 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [1
 
 
-{C:/Users/Clemens/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+{C:/Users/Clemens/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<download.png, id=20, 225.84375pt x 225.84375pt>
+File: download.png Graphic file (type png)
+<use download.png>
+Package pdftex.def Info: download.png  used on input line 44.
+(pdftex.def)             Requested size: 292.7776pt x 292.81456pt.
+ [2 <./download.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 50--54
 
  []
@@ -910,10 +916,10 @@ Package rerunfilecheck Info: File `"latex test datei".out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 108.
  ) 
 Here is how much of TeX's memory you used:
- 22141 strings out of 492895
- 398462 string characters out of 3122801
+ 22147 strings out of 492895
+ 398545 string characters out of 3122801
  601679 words of memory out of 3000000
- 25802 multiletter control sequences out of 15000+200000
+ 25806 multiletter control sequences out of 15000+200000
  626151 words of font info for 117 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,7n,77p,9099b,422s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -930,9 +936,9 @@ s/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/Clemens/AppData/Local/Pr
 ograms/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/Clemens/AppData/Lo
 cal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/Clemens/Ap
 pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on "latex test datei.pdf" (4 pages, 181761 bytes).
+Output written on "latex test datei.pdf" (4 pages, 184389 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
+ 96 PDF objects out of 1000 (max. 8388607)
  15 named destinations out of 1000 (max. 500000)
- 22561 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 22566 words of extra memory for PDF output out of 24883 (max. 10000000)
 
