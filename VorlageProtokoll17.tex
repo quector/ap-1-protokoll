@@ -115,32 +115,42 @@ Das Ziel des Versuches ist ....
        \paragraph{Periodendauer des Physikalischen Pendels}$\\$
        
        
-      Die Herleitung der Periodendauer des physikalischen Pendels erfolgt über die Lösung seiner Bewegungsgleichung. Die Bewegungsgleichung leitet sich über eines Zusammenhang des Drehmomentes her.\\
+      Die Herleitung der Periodendauer des physikalischen Pendels erfolgt über die Lösung seiner Bewegungsgleichung. Die Bewegungsgleichung leitet sich über einen Zusammenhang des Drehmomentes her.\\
       
        Das Drehmoment ist gegeben durch:
       \begin{align}
-      	\vec{M} &= \vec{r}\times\vec{F} = \frac{{d\vec{l}}}{dt} \\
-      	\text{mit         }        \vec{l} &= I \cdot \vec{\omega} \text{  und  }  \vec{\omega} = \dot{\vec{\varphi}}\\
-      	\text{ergibt sich:   }  \vec{M} &= I \cdot \ddot{\vec\varphi}\\
+      	\vec{M} = \vec{r}\times\vec{F} = \frac{{d\vec{l}}}{dt} \\
+      	\text{mit         }        \vec{l} = I \cdot \vec{\omega} \text{  und  }  \vec{\omega} = \dot{\vec{\varphi}} \notag\\
+      	\text{ergibt sich:   }  \vec{M} = I \cdot \ddot{\vec\varphi}\notag
       	  \end{align}
-Bzgl. eines Starren Körpers in Form eine Stabes mit Trägheitsmoment $I_a$, Masse $m_s$ und $d$ als Abatand zwischen Aufhängepubnkt und Schwerpunkt, ist der Betrag des Drehmoments folglich
-        \begin{equation}
-        	M =- I_a \ddot{\varphi}
-        \end{equation}
-        Aus (1) ergibt sich:
-        \begin{align}
-        	\vec{M}= \vec{F_G} \times \vec{d} \overset{\text{(Betrag)}}{\underset{\text{ }}{\rightarrow}} M = m_sgd \sin\varphi
-        \end{align}
-Gleichsetzen von (5) und (6) ergibt
-\begin{align}
-	 m_sgd \sin\varphi&= - I_a \ddot{\varphi} \\
-	 \Leftrightarrow I_a \ddot{\varphi} + m_sgd \sin\varphi&= 0
-\end{align}
-Für kleine Winkel $\varphi$ folgt
+Bzgl. eines Starren Körpers in Form eine Stabes mit Trägheitsmoment $I_a$, Masse $m_s$ und $d$ als Abstand zwischen Aufhängepubnkt und Schwerpunkt, ist der Betrag des Drehmoments folglich
 \begin{equation}
-	I_a \ddot{\varphi} + m_sgd \varphi&= 0
-	\Leftrightarrow \ddot\varphi + (\frac{m_sgd}{I_a})\varphi &= 0
+		M =- I_a \ddot{\varphi}
 \end{equation}
+        Aus (1) ergibt sich:
+\begin{align}
+ 		\vec{M}= \vec{F_G} \times \vec{d} \overset{\text{(Betrag)}}{\underset{\text{ }}{\rightarrow}} M = m_sgd \sin\varphi
+\end{align}
+Gleichsetzen von (2) und (3) ergibt
+\begin{align*}
+		 m_sgd \sin\varphi&= - I_a \ddot{\varphi} \\
+ 		\Leftrightarrow I_a \ddot{\varphi} + m_sgd \sin\varphi&= 0
+\end{align*}
+Für kleine Winkel $\varphi$ folgt
+\begin{align*}
+		I_a \ddot{\varphi} + m_sgd \varphi&= 0\\
+		 \Leftrightarrow \ddot\varphi + \left(\frac{m_sgd}{I_a}\right)\varphi &= 0
+\end{align}
+Diese Differentialgleichung hat die Form einer allgemeinen Schwingungsgleichung
+\begin{align*}
+	\ddot{x}+\omega^2 x = 0
+\end{align*}
+mit $\omega^2 = \left(\frac{m_sgd}{I_a}\right)$. Die Lösung dieser Differentialgleichung ist eine harmonische Schwingung.\\
+Die Kreisfrequenz $\omega$ liefert uns durch folgende Zusammenhänge die Periodendauer
+\begin{equation*}
+	T = \frac{1}{f} = \frac{1}{2\pi}\sqrt{\frac{I_a}{m_sgd}} \hspace{2cm} \text{mit}\hspace{0.5cm}   f=\frac{\omega}{2\pi}
+\end{equation*}
+
 
 
 
