@@ -1,0 +1,153 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{longtable}
+\usepackage{ae}
+\usepackage{geometry}
+\geometry{verbose,a4paper,tmargin=25mm,bmargin=25mm,lmargin=20mm,rmargin=20mm,nomarginpar}
+\usepackage{tikz}
+\usetikzlibrary{patterns}
+\usepackage{graphicx}
+\usepackage{mathrsfs}
+\usepackage{array}
+\usepackage{paralist}
+\usepackage[pdfpagelabels]{hyperref}
+\usepackage{pdfpages}
+\usepackage{hyperref}
+\usepackage{marvosym}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{float}
+
+
+\begin{document}
+\newcommand{\angstrom}{\mbox{\normalfont\AA}}
+\newcommand*{\vertbar}{\rule[1ex]{0.5pt}{2.5ex}}
+\newcommand*{\horzbar}{\rule[.5ex]{2.5ex}{0.5pt}}
+\newcommand{\sg}{\vspace*{0.15cm}}
+\newcommand{\pic}[4]{\begin{figure}[ht] \centering \includegraphics[width=#1\textwidth]{#2}\caption{#3}\label{#4}  
+\end{figure}}
+\newcommand{\picoc}[3]{\begin{figure}[ht] \centering \includegraphics[width=#1\textwidth]{#2}\label{#3}  
+\end{figure}}
+
+\pagenumbering{Alph}
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+
+\center % Center everything on the page
+ 
+%----------------------------------------------------------------------------------------
+%	HEADING SECTIONS
+%----------------------------------------------------------------------------------------
+
+\textsc{\LARGE Albert-Ludwigs-Universität Freiburg}\\[1.5cm] % Name of your university/college
+\textsc{\Large Anfänger Praktikum I}\\[0.5cm] % Major heading such as course name
+\textsc{\large Versuch 17}\\[0.5cm] % Minor heading such as course title
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\HRule \\[0.4cm]
+{ \huge \bfseries   Physikalisches Pendel, Trägheitsmomente und Steinerscher Satz}\\[0.4cm] % Title of your document
+\HRule \\[1.5cm]
+
+%----------------------------------------------------------------------------------------
+%	IMAGE
+%----------------------------------------------------------------------------------------
+
+\includegraphics[width=200pt]{logo}\\[1cm]
+
+ 
+%----------------------------------------------------------------------------------------
+%	AUTHOR SECTION
+%----------------------------------------------------------------------------------------
+\mbox{}
+\vfill
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Versuchsteilnehmer:}\\
+\underline{Andreas \textsc{Weber}},\\ \underline{Clemens \textsc{Lauby}} % Your name
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Tutor: } \\
+Vorname \textsc{Nachname} % Supervisor's Name
+\end{flushright}
+\end{minipage}\\[1cm]
+
+% If you don't want a supervisor, uncomment the two lines below and remove the section above
+%\Large \emph{Author:}\\
+%John \textsc{Smith}\\[3cm] % Your name
+
+%----------------------------------------------------------------------------------------
+%	DATE SECTION
+%----------------------------------------------------------------------------------------
+
+{\large \today}\\ % Date, change the \today to a set date if you want to be precise
+
+%----------------------------------------------------------------------------------------
+%	LOGO SECTION, if you want no logo leave this as is
+%----------------------------------------------------------------------------------------
+
+%\includegraphics[width=200pt]{logo}\\[1cm] % Include a department/university logo - this will require the graphicx package
+ 
+%----------------------------------------------------------------------------------------
+
+\vfill % Fill the rest of the page with whitespace
+\end{titlepage}
+\newpage
+\pagenumbering{Alph}
+
+\tableofcontents
+\newpage
+\pagenumbering{arabic}
+\section{Abstract}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Theorie}
+
+\section{Experiment}
+\subsection{Versuchsaufbau}
+
+\subsection{Versuchsdurchführung}
+
+\section{Auswertung}
+
+\section{Diskussion}
+
+
+
+\newpage
+\section{Quellen}
+%\bibliographystyle{apacite}
+
+\nocite{*}
+\newpage
+\section{Messwerte}
+\newpage
+%\includepdf[pages={1-}]{abc.pdf}
+
+
+
+\end{document}
+
