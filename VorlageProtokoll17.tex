@@ -20,6 +20,7 @@
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{float}
+\usepackage[locale=DE,separate-uncertainty=true]{siunitx}
 
 
 \begin{document}
@@ -107,12 +108,130 @@ Vorname \textsc{Nachname} % Supervisor's Name
 \tableofcontents
 \newpage
 \pagenumbering{arabic}
+<<<<<<< Updated upstream
 \section{Abstract}
 	
+=======
+\section{Versuchsbeschreibung}
+\subsection{Ziel des Versuches}
+Das Ziel des Versuches ist ....
+\subsection{Physikalischer Zusammenhang}
+       \subsubsection{Physikalisches Pendel}
+       \paragraph{Periodendauer des Physikalischen Pendels}$\\$
+       
+Die Herleitung der Periodendauer des physikalischen Pendels erfolgt über die Lösung seiner Bewegungsgleichung. Die Bewegungsgleichung leitet sich über einen Zusammenhang des Drehmomentes her.\\
+      
+Das Drehmoment ist gegeben durch:
+      \begin{align}
+      	\vec{M} = \vec{r}\times\vec{F} = \frac{{d\vec{l}}}{dt} \\
+      	\text{mit         }        \vec{l} = I \cdot \vec{\omega} \text{  und  }  \vec{\omega} = \dot{\vec{\varphi}} \notag\\
+      	\text{ergibt sich:   }  \vec{M} = I \cdot \ddot{\vec\varphi}\notag
+      	  \end{align}
+Bzgl. eines Starren Körpers in Form eine Stabes mit Trägheitsmoment $I_a$, Masse $m_s$ und $d$ als Abstand zwischen Aufhängepubnkt und Schwerpunkt, ist der Betrag des Drehmoments folglich
+\begin{equation}
+		M =- I_a \ddot{\varphi}
+\end{equation}
+        Aus (1) ergibt sich:
+\begin{align}
+ 		\vec{M}= \vec{F_G} \times \vec{d} \overset{\text{(Betrag)}}{\underset{\text{ }}{\rightarrow}} M = m_sgd \sin\varphi
+\end{align}
+Gleichsetzen von (2) und (3) ergibt
+\begin{align*}
+		 m_sgd \sin\varphi&= - I_a \ddot{\varphi} \\
+ 		\Leftrightarrow I_a \ddot{\varphi} + m_sgd \sin\varphi&= 0
+\end{align*}
+Für kleine Winkel $\varphi$ folgt
+\begin{align*}
+		I_a \ddot{\varphi} + m_sgd \varphi&= 0\\
+		 \Leftrightarrow \ddot\varphi + \left(\frac{m_sgd}{I_a}\right)\varphi &= 0
+\end{align*}
+Diese Differentialgleichung hat die Form einer allgemeinen Schwingungsgleichung
+\begin{align*}
+	\ddot{x}+\omega^2 x = 0
+\end{align*}
+mit $\omega^2 = \left(\frac{m_sgd}{I_a}\right)$. Die Lösung dieser Differentialgleichung ist eine harmonische Schwingung.\\
+Die Kreisfrequenz $\omega$ liefert uns durch folgende Zusammenhänge die Periodendauer
+\begin{equation}
+	T = \frac{1}{f} = 2\pi\sqrt{\frac{I_a}{m_sgd}} \hspace{2cm} \text{mit}\hspace{0.5cm}   f=\frac{\omega}{2\pi}
+\end{equation}
+>>>>>>> Stashed changes
+
+\newpage
+
+\paragraph{Trägheitsmoment des Physikalischen Pendels} $\\$
+
+Bei Betrachtung des Ausdruckes zur Errechnung der Periodendauer ist das Trägheitsmoment $I_a$ des Oszillierenden Objektes noch Unbekannt. Dieser Abschnitt widmet sich also der Berechnung ebendieses Ausdruckes.\\
+
+<<<<<<< Updated upstream
+=======
+Allgemein lässt sich das Trägheitsmoment eines Starren Körpers mit Masse $m_s$ über den folgenden Ausdruck errechnen
+\begin{align}
+	I_s &= \int_{m}^{}  r^2_\perp \mathrm{d}m  \hspace{2cm}\text{mit  }  \varrho = \frac{m_s}{V} \notag\\
+	\Rightarrow I_s &= \int_{V}^{} r^2_\perp \varrho \mathrm{d}V 
+\end{align}
+Die Dichte $\varrho$ wird als homogen angenommen und da der Stab im vergleich zur Länge sehr dünn ist, wird im folgenden nurnoch über die Länge $r$ integriert. Hierzu führt man die dann ebenfalls homogene Liniendichte $\lambda$ ein und erhält dann das entsprechende Trägheitsmoment für den Fall, dass die Rotationsachse Schwerpunkt des Stabes (Mitte) liegt
+\begin{align}
+	\lambda &= \frac{m_s}{l} \notag \\
+	\overset{\text{(4)}}{\underset{\text{ }}{\Rightarrow}} I_s &= \lambda\int_{-l/2}^{l/2} r^2 \mathrm{d}r = \lambda \frac{l^3}{12}\notag \\
+	\Leftrightarrow I_s &= \frac{1}{12} m_s l^2 
+\end{align}
+Liegt die Rotationsachse nicht im Schwerpunkt des Stabes, erhält man ein anderes Trägheitsmoment. Im folgenden wird das Trägheitsmoment $I_a$ des Stabes berechnet, wenn die Rotationsachse im Schwerkunkt liegt. Hierfür wird der Satz von Steiner verwendet
+\begin{align}
+	I_a = I_s + m_s d^2 \notag
+\end{align}
+	In diesem Fall wählt man die Verschiebungsstrecke $d=\frac{l}{2}$, da sich der Schwerpunkt in der Mitte des Stabes Befindet. Daraus ergibt sich
+\begin{align}
+	 I_a = I_s +m_s \frac{l^2}{4}  \overset{\text{(6)}}{=} \frac{1}{3} m_s l^2
+\end{align}
+{\bf Letztendlich} ergibt sich die Periodendauer des physikalischen Pendels indem man Gleichung (7) in Gleichung (4) einsetzt
+\begin{align}
+	T = \sqrt{\frac{2l}{3g}} 
+\end{align}
+       \subsubsection{Drehpendel}
+       \paragraph{Periodendauer des Drehpendels}$\\$
+       
+Die Herleitung der Periodendauer des Drehpendels erfolgt, wie bei dem phyikalischen Pendel, ebenfalls über die Lösung der zugehörigen Bewegungsgleichung. Die Masse des Drehpendels wird durch eine Spiralfeder zurückgetrieben. Die Feder mit Federkonstante $D$ erzeugt Betraglich folgendes Rückstellmoment
+\begin{align}
+	M = D \varphi
+\end{align}
+Dieser Ausdruck kann mit Gleichung (2) Gleichgesetzt werden und es ergibt sich
+\begin{align}
+	I\ddot{\varphi}+D\varphi=0\\
+	\Leftrightarrow \ddot{\varphi} + \frac{D}{I_{ges}}\varphi = 0
+\end{align}
+Ähnlich wie beim physikalischen Pendel hat diese Differentialgleichung die Form einer allgemeinen Schwingungsgleichung mit
+\begin{equation}
+	\omega^2 = \frac{D}{I_{ges}}
+\end{equation}
+Für die Periodendauer ergibt sich dann
+\begin{align}
+	T = 2\pi \sqrt{\frac{I_{ges}}{D}}  \hspace{3cm} \text{mit } T=\frac{2\pi}{\omega}
+\end{align}
+Die Größe $I_{Ges}$ beschreibt das Gesamte Trägheitsmoment des Systems. Dies setzt sich aus dem Trägheitsmoment des Drehtisches $I_{dt}$ und der Kreisscheibe zusammen. Das Trägheitsmoment der Kreisscheibe  variiert, da ihr Schwerpunkt verschoben werden kann. Dementsprechend verwendet man den Satz von Steiner. Die zusammensetzung Lautet wie folgt
+\begin{align}
+	I_{ges}= I_{dt}+ I_{ks}+d^2m_{ks}
+\end{align} 
+$m_{ks}$  ist die Masse der Kreisscheibe und $d$ ist der Abstand von dem Schwerpunkt der Kreisscheibe zur Rotationsachse.
+
+\paragraph{Trägheitsmoment der Kreisscheibe}$\\$
+
+Die Masseverteilung der Kreisscheibe mit wird als homogen angenommen. Der allgemeine Ausdruck lautet wie folgt
+\begin{align}
+	I_{ks} = \varrho\int_{V}^{}r^2\perp\mathrm{d}V
+\end{align}
+Die Kreisscheibe hat die Form eines Zylinders mit Volumen $V $, Höhe $h$und Radius $R$ .Für die berechnung bieten sich Zylinderkoordinaten an mit $\mathrm{d}V=r\hspace{0.15cm}\mathrm{d}r\mathrm{d}\varphi\mathrm{d}y$.
+Für das Integral ergibt sich dann
+\begin{align}
+	I_{ks} &= \frac{m_{ks}}{V} \int_{0}^{h}\int_{0}^{2\pi}\int_{0}^{R} r^3 \mathrm{d}r\mathrm{d}\varphi\mathrm{d}y \\
+	\Leftrightarrow I_{ks} &= \frac{1}{2} m_{ka}R^2
+\end{align}
 
 
 
 
+
+
+>>>>>>> Stashed changes
 
 
 
@@ -138,7 +257,12 @@ Vorname \textsc{Nachname} % Supervisor's Name
 
 
 \newpage
+<<<<<<< Updated upstream
 \section{Quellen}
+=======
+\section{Anhang}
+%\SI{0,5+-0,1e5}{\meter}
+>>>>>>> Stashed changes
 %\bibliographystyle{apacite}
 
 \nocite{*}
