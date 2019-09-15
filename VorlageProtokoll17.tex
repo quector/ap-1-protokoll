@@ -113,7 +113,7 @@ Vorname \textsc{Nachname} % Supervisor's Name
 \pagenumbering{arabic}
 \section{Versuchsbeschreibung}
 \subsection{Ziel des Versuches}
-Das Ziel des Versuches ist ....
+Das Ziel des Versuches ist es die Periodendauern eines physikalischen Pendels und eines Drehpendels experimentell zu bestimmen und diese Anhand von theorethischen Tatsachen zu vergleichen. Ebenfalls wird der Steinersche Satz mit Hilfe des Drehpendels verifiziert
 \subsection{Physikalischer Zusammenhang}
        \subsubsection{Physikalisches Pendel}
        \paragraph{Periodendauer des Physikalischen Pendels}$\\$
@@ -130,11 +130,11 @@ Bzgl. eines Starren Körpers in Form eine Stabes mit Trägheitsmoment $I_a$, Mas
 \begin{equation}
 		M =- I_a \ddot{\varphi}
 \end{equation}
-        Aus (1) ergibt sich:
+        Aus (1.1) ergibt sich:
 \begin{align}
  		\vec{M}= \vec{F_G} \times \vec{d} \overset{\text{(Betrag)}}{\underset{\text{ }}{\rightarrow}} M = m_sgd \sin\varphi
 \end{align}
-Gleichsetzen von (2) und (3) ergibt
+Gleichsetzen von (1.2) und (1.3) ergibt
 \begin{align*}
 		 m_sgd \sin\varphi&= - I_a \ddot{\varphi} \\
  		\Leftrightarrow I_a \ddot{\varphi} + m_sgd \sin\varphi&= 0
@@ -165,10 +165,10 @@ Allgemein lässt sich das Trägheitsmoment eines Starren Körpers mit Masse $m_s
 	I_s &= \int_{m}^{}  r^2_\perp \mathrm{d}m  \hspace{2cm}\text{mit  }  \varrho = \frac{m_s}{V} \notag\\
 	\Rightarrow I_s &= \int_{V}^{} r^2_\perp \varrho \mathrm{d}V
 \end{align}
-Die Dichte $\varrho$ wird als homogen angenommen und da der Stab im vergleich zur Länge sehr dünn ist, wird im folgenden nurnoch über die Länge $r$ integriert. Hierzu führt man die dann ebenfalls homogene Liniendichte $\lambda$ ein und erhält dann das entsprechende Trägheitsmoment für den Fall, dass die Rotationsachse Schwerpunkt des Stabes (Mitte) liegt
+Die Dichte $\varrho$ wird als homogen angenommen und da der Stab im Vergleich zur Länge sehr dünn ist, wird im folgenden nurnoch über die Länge $r$ integriert. Hierzu führt man die dann ebenfalls homogene Liniendichte $\lambda$ ein und erhält dann das entsprechende Trägheitsmoment für den Fall, dass die Rotationsachse Schwerpunkt des Stabes (Mitte) liegt
 \begin{align}
 	\lambda &= \frac{m_s}{l} \notag \\
-	\overset{\text{(4)}}{\underset{\text{ }}{\Rightarrow}} I_s &= \lambda\int_{-l/2}^{l/2} r^2 \mathrm{d}r = \lambda \frac{l^3}{12}\notag \\
+	\overset{\text{(1.5)}}{\underset{\text{ }}{\Rightarrow}} I_s &= \lambda\int_{-l/2}^{l/2} r^2 \mathrm{d}r = \lambda \frac{l^3}{12}\notag \\
 	\Leftrightarrow I_s &= \frac{1}{12} m_s l^2
 \end{align}
 Liegt die Rotationsachse nicht im Schwerpunkt des Stabes, erhält man ein anderes Trägheitsmoment. Im folgenden wird das Trägheitsmoment $I_a$ des Stabes berechnet, wenn die Rotationsachse im Schwerkunkt liegt. Hierfür wird der Satz von Steiner verwendet
@@ -177,59 +177,59 @@ Liegt die Rotationsachse nicht im Schwerpunkt des Stabes, erhält man ein andere
 \end{align}
 	In diesem Fall wählt man die Verschiebungsstrecke $d=\frac{l}{2}$, da sich der Schwerpunkt in der Mitte des Stabes Befindet. Daraus ergibt sich
 \begin{align}
-	 I_a = I_s +m_s \frac{l^2}{4}  \overset{\text{(6)}}{=} \frac{1}{3} m_s l^2
+	 I_a = I_s +m_s \frac{l^2}{4}  \overset{\text{(1.6)}}{=} \frac{1}{3} m_s l^2
 \end{align}
-{\bf Letztendlich} ergibt sich die Periodendauer des physikalischen Pendels indem man Gleichung (7) in Gleichung (4) einsetzt
+{\bf Letztendlich} ergibt sich die Periodendauer des physikalischen Pendels indem man Gleichung (1.7) in Gleichung (1.4) einsetzt
 \begin{align}
 	T = \sqrt{\frac{2l}{3g}}
 \end{align}
        \subsubsection{Drehpendel}
        \paragraph{Periodendauer des Drehpendels}$\\$
 
-Die Herleitung der Periodendauer des Drehpendels erfolgt, wie bei dem phyikalischen Pendel, ebenfalls über die Lösung der zugehörigen Bewegungsgleichung. Die Masse des Drehpendels wird durch eine Spiralfeder zurückgetrieben. Die Feder mit Federkonstante $D$ erzeugt Betraglich folgendes Rückstellmoment
-\begin{align}
+Die Herleitung der Periodendauer des Drehpendels erfolgt, wie bei dem phyikalischen Pendel, ebenfalls über die Lösung der dazugehörigen Bewegungsgleichung. Die Masse des Drehpendels wird durch eine Spiralfeder zurückgetrieben. Die Feder mit Federkonstante $D$ erzeugt betraglich folgendes Rückstellmoment
+\begin{align*}
 	M = D \varphi
-\end{align}
-Dieser Ausdruck kann mit Gleichung (2) Gleichgesetzt werden und es ergibt sich
-\begin{align}
+\end{align*}
+Dieser Ausdruck kann mit Gleichung (1.2) gleichgesetzt werden und es ergibt sich
+\begin{align*}
 	I\ddot{\varphi}+D\varphi=0\\
 	\Leftrightarrow \ddot{\varphi} + \frac{D}{I_{ges}}\varphi = 0
-\end{align}
+\end{align*}
 Ähnlich wie beim physikalischen Pendel hat diese Differentialgleichung die Form einer allgemeinen Schwingungsgleichung mit
-\begin{equation}
+\begin{equation*}
 	\omega^2 = \frac{D}{I_{ges}}
-\end{equation}
-Für die Periodendauer ergibt sich dann
+\end{equation*}
+Für die Periodendauer der Drehtisches ergibt sich dann
 \begin{align}
-	T = 2\pi \sqrt{\frac{I_{ges}}{D}}  \hspace{3cm} \text{mit } T=\frac{2\pi}{\omega}
+	T_{dt} = 2\pi \sqrt{\frac{I_{ges}}{D}}  \hspace{3cm} \text{mit } T_{dt}=\frac{2\pi}{\omega}
 \end{align}
-Die Größe $I_{Ges}$ beschreibt das Gesamte Trägheitsmoment des Systems. Dies setzt sich aus dem Trägheitsmoment des Drehtisches $I_{dt}$ und der Kreisscheibe zusammen. Das Trägheitsmoment der Kreisscheibe  variiert, da ihr Schwerpunkt verschoben werden kann. Dementsprechend verwendet man den Satz von Steiner. Die zusammensetzung Lautet wie folgt
-\begin{align}
+Die Größe $I_{Ges}$ beschreibt das gesamte Trägheitsmoment des Systems. Dieses setzt sich aus dem Trägheitsmoment des Drehtisches $I_{dt}$ und der Kreisscheibe zusammen. Das Trägheitsmoment der Kreisscheibe  variiert, da ihr Schwerpunkt verschoben werden kann. Dementsprechend verwendet man den Satz von Steiner. Die Zusammensetzung lautet wie folgt
+\begin{align*}
 	I_{ges}= I_{dt}+ I_{ks}+d^2m_{ks}
-\end{align}
-$m_{ks}$  ist die Masse der Kreisscheibe und $d$ ist der Abstand von dem Schwerpunkt der Kreisscheibe zur Rotationsachse. $I_{ges}$ eingesetzt in (? T =)  und Umgeformt ergibt dann
+\end{align*}
+$m_{ks}$  ist die Masse der Kreisscheibe und $d$ ist der Abstand von dem Schwerpunkt der Kreisscheibe zur Rotationsachse. $I_{ges}$ eingesetzt in (1.9)  und umgeformt ergibt dann
 \begin{align}
-	T = 2\pi\sqrt{\frac{I_{dt}+ I_{ks}+d^2m_{ks}}{D}}\\
-	\Leftrightarrow T^2 = 4 \pi^2 \left(\frac{I_{dt}+ I_{ks}+d^2m_{ks}}{D}\right)
+	T_{dt} = 2\pi\sqrt{\frac{I_{dt}+ I_{ks}+d^2m_{ks}}{D}}\notag\\
+	\Leftrightarrow {T_{dt}}^2 = 4 \pi^2 \left(\frac{I_{dt}+ I_{ks}+d^2m_{ks}}{D}\right)
 \end{align}
 \paragraph{Trägheitsmoment der Kreisscheibe}$\\$
 
 Die Masseverteilung der Kreisscheibe mit wird als homogen angenommen. Der allgemeine Ausdruck lautet wie folgt
-\begin{align}
+\begin{align*}
 	I_{ks} = \varrho\int_{V}^{}r^2\perp\mathrm{d}V
-\end{align}
+\end{align*}
 Die Kreisscheibe hat die Form eines Zylinders mit Volumen $V $, Höhe $h$ und Radius $R$ .Für die berechnung bieten sich Zylinderkoordinaten an mit $\mathrm{d}V=r\hspace{0.15cm}\mathrm{d}r\mathrm{d}\varphi\mathrm{d}y$.
 Für das Integral ergibt sich dann
-\begin{align}
+\begin{align*}
 	I_{ks} &= \frac{m_{ks}}{V} \int_{0}^{h}\int_{0}^{2\pi}\int_{0}^{R} r^3 \mathrm{d}r\mathrm{d}\varphi\mathrm{d}y \\
 	\Leftrightarrow I_{ks} &= \frac{1}{2} m_{ks}R^2
-\end{align}
-Wenn $I_{ks}$ in (T2) eingesetzt wird, ergibt sich dann letztendlich
-\begin{align}
-	T^2 &= 4 \pi^2 \left(\frac{I_{dt}+ \frac{1}{2} m_{ks}R^2}{D}\right) +4\pi^2 \left(\frac{d^2m_{ks}}{D}\right)\\
+\end{align*}
+Wenn $I_{ks}$ in (1.10) eingesetzt wird, ergibt sich dann letztendlich
+\begin{align*}
+	{T_{dt}}^2 &= 4 \pi^2 \left(\frac{I_{dt}+ \frac{1}{2} m_{ks}R^2}{D}\right) +4\pi^2 \left(\frac{d^2m_{ks}}{D}\right)\\
 	\text{Def: } a&:= 4\pi^2\left(\frac{I_{dt}+\frac{1}{2}m_{ks}R}{D}\right) \text{;  } \hspace{2cm}b:= 4\pi^2\frac{m}{D}\\
 	\Rightarrow I_{dt} &= \frac{Da}{4\pi^2}-\frac{1}{2}mR^2\text{ ; }\hspace{2.6cm}\Rightarrow D = \frac{4\pi^2 m_{ks}}{b}
-\end{align}
+\end{align*}
 Es liegt nun also der linearer Zusammenhang $T^2=a+bd^2$ vor. Durch lineare Regression kann man $a$ und $b$ bestimmen und folglich das Trägheitsmoment des Drehtisches und die Federkonstante der Spiralfeder bestimmen.
 
 
@@ -245,7 +245,12 @@ Es liegt nun also der linearer Zusammenhang $T^2=a+bd^2$ vor. Durch lineare Regr
       \end{figure}
 Das in Abbildung 1 gezeigte Pendel  ist ein Zylinderförmiger Metallstab, der in einer Ebene Oszillieren kann. Die Dichte wird als homogen angenommen. Folglich beschreibt $\varphi$  den Auslenkwinkel des Pendels, $l$ die Gesamtlänge und S symbolisiert den Schwerpunkt. Der Abstand $d$ zwischen Aufhängepunkt und Schwerpunkt entspricht $\frac{l}{2}$.
       \subsubsection{Durchführung}
-Ziel des ersten Versuches ist es die Periodendauer des Pendels anhand zwei unterschiedlicher Messmethoden zu bestimmen. Um diesen Versuch durchzuführen bestand die erste Methode daraus, 30 Einzelmessungen durchzuführen und die Zeit für eine einzelne Schwingung zeitlich mit einer Stoppuhr zu messen. Dazu wurde das Pendel ca. um 10° ausgelekt. Die Zeitmessung erfolgte zwischen dem ersten und einem weiteren durchlaufen des Umkehrpunktes. Die Zweite Methode bestand daraus, eine zeitliche Messung von 30 Perioden mit den gleichen Versuchsbedingungen durchzuführen. Da man für die theorethische Errechnung der Periodendauer die Länge des Pendels braucht, wurde die Länge des Matallstabes von Aufhängepunkt bis Stabende mit einem Maßband gemessen.
+
+Ziel des ersten Versuches ist es die Periodendauer des Pendels Anhand zwei unterschiedlicher Messmethoden zu bestimmen. Um diesen Versuch durchzuführen bestand die erste Methode daraus, 30 Einzelmessungen durchzuführen und die Zeit für eine einzelne Schwingung zeitlich mit einer Stoppuhr zu messen. Dazu wurde das Pendel ca. um $10^\circ$ ausgelekt.
+ Die Zeitmessung erfolgte zwischen dem ersten und einem weiteren durchlaufen des Umkehrpunktes.
+ Die Zweite Methode bestand daraus, eine zeitliche Messung von 30 Perioden mit den gleichen Versuchsbedingungen durchzuführen. 
+ Da man für die theorethische Errechnung der Periodendauer die Länge des Pendels braucht, wurde die Länge des Matallstabes von Aufhängepunkt bis Stabende mit einem Maßband gemessen.
+
 \subsection{Versuch zum Aufgabenteil 4}
 
      \subsubsection{Versuchsaufbau}
@@ -254,17 +259,11 @@ Ziel des ersten Versuches ist es die Periodendauer des Pendels anhand zwei unter
      	\centering
      	\caption{Darstellung eines Kreispendels}
      \end{figure}
- Der in Abbildung 2 gezeigte Versuchsaufbau besteht aus einem Stativ, das von einer Welle Durchführt wird. Auf dem oberen Teil der Welle Sitzt ein Drehteller, sodass das Schwerpunkt des Drehtellers auf der Rotationsachse der Welle liegt. In den unteren Teil der Welle ist eine Feder eingehängt, sodass der Drehteller durch Rotation in Schwingung versetzt werden kann. Auf den
+ Der in Abbildung 2 gezeigte Versuchsaufbau besteht aus einem Stativ, das von einer Welle Durchführt wird. Auf dem oberen Teil der Welle Sitzt ein Drehteller, sodass das Schwerpunkt des Drehtellers auf der Rotationsachse der Welle liegt. In den unteren Teil der Welle ist eine Feder eingehängt, sodass der Drehteller durch Rotation in Schwingung versetzt werden kann. Auf dem Drehteller befinden sich 7 Löcher mit jeweils 15mm Abstand, die von der Mitte nach Außen hin angeordnet sind.
      \subsubsection{Durchführung}
-
-
-
-
-
-
-
-
-
+Ziel des Versuches ist es, die Periodern für unterschiedliche Gewichtsverteilungen zu Messen. Dazu wurden 8 Einzelmessungen von jewiels 10 Schwingungsperioden zeitlich gemessen.
+Die erste Messung erfolgte ohne Kreisscheibe. Bei der zweiten Messung wurde die Kreisscheibe mit dem Schwerpunkt auf die Drehachse des Drehtiischs gelegt. Bei den 6 weiteren Messungen wurde der Schwerpunkt der Kreischeibe jeweils um 15mm Abstand zur Drehachse verschoben.
+Da zur Berechnung des Trägheitsmomentes der Kreisscheibe der Radius bzw. der Durchmesser benötigt wird, wurde dieser mit einem Messschieber gemessen.
 \section{Auswertung und Fehleranalyse}
 	\subsection{Physikalisches Pendel}
 
