@@ -101,9 +101,12 @@ Vorname \textsc{Nachname} % Supervisor's Name
 
 \vfill % Fill the rest of the page with whitespace
 \end{titlepage}
+
+
+
 \newpage
 \pagenumbering{Alph}
-
+\numberwithin{equation}{section}
 \tableofcontents
 \newpage
 \pagenumbering{arabic}
@@ -140,7 +143,7 @@ Für kleine Winkel $\varphi$ folgt
 \begin{align*}
 		I_a \ddot{\varphi} + m_sgd \varphi&= 0\\
 		 \Leftrightarrow \ddot\varphi + \left(\frac{m_sgd}{I_a}\right)\varphi &= 0
-\end{align}
+	\end{align*}
 Diese Differentialgleichung hat die Form einer allgemeinen Schwingungsgleichung
 \begin{align*}
 	\ddot{x}+\omega^2 x = 0
@@ -156,6 +159,23 @@ Die Kreisfrequenz $\omega$ liefert uns durch folgende Zusammenhänge die Periode
 
 	
        \subsubsection{Drehpendel}
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
 
 \subsection{Versuch zum Aufgabenteil 3}
       \subsubsection{Versuchsaufbau}
@@ -165,6 +185,66 @@ Die Kreisfrequenz $\omega$ liefert uns durch folgende Zusammenhänge die Periode
      \subsubsection{Versuchsaufbau}
      \subsubsection{Durchführung}
 \section{Auswertung und Fehleranalyse}
+	\subsection{Physikalisches Pendel}
+	
+	Im ersten Teil unseres Versuches haben wir 30 mal die Periodendauer einer Schwingung des Pendels
+	gemessen. Aus den 30 Messwerten errechnen wir den Mittelwert mit:
+	
+	\begin{equation}
+	\bar{T} = \frac{1}{n} \sum_{i=1}^{n} T_i		
+	\end{equation}
+	Die Standardabweichung mit:
+	\begin{equation}
+	s_T=\sqrt{\frac{1}{n-1}\sum_{i=1}{n} (T_i - \bar{T_s})^2}
+	\end{equation}
+	Die Standardabweichung des Mittelwerts mit:
+	\begin{equation}
+	s_{\bar{T}}=\frac{s_T}{\sqrt{n}}
+	\end{equation}
+	Das Ergebnis bezüglich unserer 30 Messwerte (siehe Anhang) ist also:
+	\begin{equation*}
+	\bar{T}=(1.5850 \pm 0.0081)s
+	\end{equation*}
+	\\
+	Im zweiten Teil des Versuches haben wir die Schwingzeit von 30 Perioden gemessen. \\
+	Dabei haben wir unsere Messungenauigkeit auf $\pm 0.1$s abgeschätzt. Also ist $T_{30}=(48.03\pm 0.1)s$
+	\\
+	Die Schwingungsdauer einer Periode berechnet sich als:
+	\begin{equation*}
+	\bar{T}=\frac{T_{30}}{30}
+	\end{equation*}
+	Mit einer Standardabweichung von $$\frac{s_{T_{30}}}{30}=\frac{0.1}{30}[s]\approx 0.003[s]$$
+	Also ist $\bar{T}=(1.601\pm 0.003)s$. \\
+	Um die Verträglichkeit der beiden Periodendauern zu bestimmen verwenden wir:
+	\begin{equation}
+	t=\frac{ |x_0 -y_0|}{\sqrt{(\Delta x)^2 + (\Delta y)^2}}
+	\end{equation}
+	Für unsere Werte und Unsicherheiten ergibt sich $t=1.96<2$. Also sind unsere Ergebnisse verträglich.
+	\newpage 
+	Vergleicht man das Ergebnis der 30 Einzelmessungen mit dem der Messung von 30 Schwingungen,
+	so fällt auf, dass die Standardabweichung bei der Messung von einer einzelnen Periode deutlich 
+	größer ist als die Standardabweichung einer Periode bei der Messung von 30 Schwingungen.
+	Bezüglich diesem Aspekt ist die Messung mehrerer Perioden der Messung einer einzelnen Periode überlegen.
+	\\
+	Das Ergebnis des durchgeführten T-Tests ($t=1.96$) ist zwar noch innerhalb der Akzeptanz, aber
+	ziemlich nah an dem kritischen Wert von 2.
+	Möglicher Grund dafür könnte eine zu niedrige Einschätzung unsere statistischer Messungenauigkeit bei der Messung von 30 Schwingungen sein.
+	\\Das mehrfache durchführen der Messung von 30 Perioden hätte den Vorteil, dass man die Messungenauigkeit berechnen könnte und sich nicht auf eine Abschätzung verlassen müsste.
+	\\
+	Aus diesem Grund wäre eine Mischung der beiden, von uns durchgeführten, Messmethoden ideal um ein
+	besonders genaues Ergebnis zu erhalten.
+	
+	\subsubsection{Bestimmung der Periodendauer}
+	Aus der physikalischen Herleitung wissen wir, das T mit:
+	\begin{equation}
+	T=2\pi \sqrt{\frac{2l}{3g}}
+	\end{equation}
+	berechnet werden kann.
+	
+	
+	
+	
+	
 \subsection{Messwerte}
 
 
