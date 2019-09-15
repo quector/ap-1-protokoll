@@ -24,7 +24,7 @@
 
 
 \begin{document}
-\newcommand{\angstrom}{\mbox{\normalfont\AA}}
+%\newcommand{\angstrom}{\mbox{\normalfont\AA}}
 \newcommand*{\vertbar}{\rule[1ex]{0.5pt}{2.5ex}}
 \newcommand*{\horzbar}{\rule[.5ex]{2.5ex}{0.5pt}}
 \newcommand{\sg}{\vspace*{0.15cm}}
@@ -204,22 +204,30 @@ Die Größe $I_{Ges}$ beschreibt das Gesamte Trägheitsmoment des Systems. Dies 
 \begin{align}
 	I_{ges}= I_{dt}+ I_{ks}+d^2m_{ks}
 \end{align} 
-$m_{ks}$  ist die Masse der Kreisscheibe und $d$ ist der Abstand von dem Schwerpunkt der Kreisscheibe zur Rotationsachse.
-
+$m_{ks}$  ist die Masse der Kreisscheibe und $d$ ist der Abstand von dem Schwerpunkt der Kreisscheibe zur Rotationsachse. $I_{ges}$ eingesetzt in (? T =)  und Umgeformt ergibt dann
+\begin{align}
+	T = 2\pi\sqrt{\frac{I_{dt}+ I_{ks}+d^2m_{ks}}{D}}\\
+	\Leftrightarrow T^2 = 4 \pi^2 \left(\frac{I_{dt}+ I_{ks}+d^2m_{ks}}{D}\right)
+\end{align}
 \paragraph{Trägheitsmoment der Kreisscheibe}$\\$
 
 Die Masseverteilung der Kreisscheibe mit wird als homogen angenommen. Der allgemeine Ausdruck lautet wie folgt
 \begin{align}
 	I_{ks} = \varrho\int_{V}^{}r^2\perp\mathrm{d}V
 \end{align}
-Die Kreisscheibe hat die Form eines Zylinders mit Volumen $V $, Höhe $h$und Radius $R$ .Für die berechnung bieten sich Zylinderkoordinaten an mit $\mathrm{d}V=r\hspace{0.15cm}\mathrm{d}r\mathrm{d}\varphi\mathrm{d}y$.
+Die Kreisscheibe hat die Form eines Zylinders mit Volumen $V $, Höhe $h$ und Radius $R$ .Für die berechnung bieten sich Zylinderkoordinaten an mit $\mathrm{d}V=r\hspace{0.15cm}\mathrm{d}r\mathrm{d}\varphi\mathrm{d}y$.
 Für das Integral ergibt sich dann
 \begin{align}
 	I_{ks} &= \frac{m_{ks}}{V} \int_{0}^{h}\int_{0}^{2\pi}\int_{0}^{R} r^3 \mathrm{d}r\mathrm{d}\varphi\mathrm{d}y \\
-	\Leftrightarrow I_{ks} &= \frac{1}{2} m_{ka}R^2
+	\Leftrightarrow I_{ks} &= \frac{1}{2} m_{ks}R^2
 \end{align}
-
-
+Wenn $I_{ks}$ in (T2) eingesetzt wird, ergibt sich dann letztendlich
+\begin{align}
+	T^2 &= 4 \pi^2 \left(\frac{I_{dt}+ \frac{1}{2} m_{ks}R^2}{D}\right) +4\pi^2 \left(\frac{d^2m_{ks}}{D}\right)\\
+	\text{Def: } a&:= 4\pi^2\left(\frac{I_{dt}+\frac{1}{2}m_{ks}R}{D}\right) \text{;  } \hspace{2cm}b:= 4\pi^2\frac{m}{D}\\
+	\Rightarrow I_{dt} &= \frac{Da}{4\pi^2}-\frac{1}{2}mR^2\text{ ; }\hspace{2.6cm}\Rightarrow D = \frac{4\pi^2 m_{ks}}{b} 
+\end{align}
+Es liegt nun also der linearer Zusammenhang $T^2=a+bd^2$ vor. Durch lineare Regression kann man $a$ und $b$ bestimmen und folglich das Trägheitsmoment des Drehtisches und die Federkonstante der Spiralfeder bestimmen.
 
 
 
