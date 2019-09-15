@@ -304,10 +304,30 @@ Die Kreisfrequenz $\omega$ liefert uns durch folgende Zusammenhänge die Periode
 	gilt.
 	Auftragen von $T^2$ gegenüber $a^2$ mit den dazugehörigen Messungenauigkeiten (wobei a den Abstand der Drehscheibenrotationsachse zum Kreisscheibenmittelpunkt beschreibt) führt zu folgendem Graphen:\\
 	\begin{figure}[H]
-	\includegraphics[width=500pt]{Richtkonstante}\\[1cm] 
-	
+	\includegraphics[width=500pt]{Richtkonstante}
+	\caption[]{fig: $T^2$ gegen $a^2$ aufgetragen. Errorbars sehr klein, da $T^2$ nur einen Fehler von 0.002 hat}
 	\end{figure}
-	man sieht sofort, dass $T^2$ näherungsweise linear zu $a^2$ zunimmt. Diesen Zusammenhang erwarten wir aus dem Steinerschen Satz.
+	Die in dem Plot eingezeichnete lineare Regression $f_{reg}(a^2)=T^2=a_0 + b_0 \cdot a^2$ wurde mit:
+	\begin{align}
+	a_0 &= \frac{\sum x_i^2 \sum y_i -\sum x_i \sum y_i x_i}{n\sum x_i^2 -(\sum x_i)^2}=5.591[s^2]\\ 
+	b_0 &= \frac{n \sum x_i y_i - \sum x_i \sum y_i}{n \sum x_i^2 - (\sum x_i)^2}=6.592 [\frac{s^2}{cm^2}]
+	\end{align}
+	Die dazugehörigen Unsicherheiten mit:
+	\begin{align}
+	\Delta a &= s \cdot \sqrt{\frac{\sum x_i^2}{n \sum x_i^2 - (\sum x_i^2)^2}}=0.022[s^2]\\
+	\Delta b &= s \cdot \sqrt{\frac{n}{n \sum x_i^2 - (\sum x_i)^2}}=0.053[\frac{s^2}{cm^2}]\\
+	 \text{wobei  } s&=\sqrt{\frac{1}{n-2} \sum [y_i -( a_0 + b_o x_i)]^2}
+	\end{align}
+	Um die Verträglichkeit unserer Fitparametern mit den Messwerten und deren Unsicherheiten zu bestimmen,
+	verwenden wir einen Chi-Quadrat-Test:
+	\begin{align}
+	\chi ^2 = \frac{(\sum y_i - f_{reg}(x_i))}{s_y}
+	\end{align}
+	Den erhaltenen Wert teilen wir anschließend noch durch die Anzahl der Freiheitsgrade um den reduzierten Chi Wert zu bestimmen:
+	$$\chi _{red} = \frac{\chi ^2 }{n-2} =3.97$$
+	unser reduzierter Chi Wert liegt nicht in der Nähe von 3, ist also noch akzeptabel, dennoch ist er etwas höher als der Idealwert.
+	Dies liegt wahrscheinlich daran, dass wir unseren statistischen Messfehler bei der Bestimmung der Schwingzeit zu niedrig angesetzt haben.\vspace{2cm}\\
+	In dem Plot sieht man sofort, dass $T^2$ näherungsweise linear zu $a^2$ zunimmt. Diesen Zusammenhang erwarten wir aus dem Steinerschen Satz.
 	\\
 	
 	
